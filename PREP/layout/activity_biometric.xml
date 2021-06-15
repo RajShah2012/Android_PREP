@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".BiometricActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use your Fingerprint to Verify"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#24a0fc"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_fingerprint_24"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/tvmsg"
+        android:gravity="center"
+        android:textColor="#24a0fc"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="VERIFY"
+        android:id="@+id/btnVerify"
+        android:textSize="17.5sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/customcolor"/>
+
+</LinearLayout>
